@@ -35,73 +35,77 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "IdeaToReality : App Developer",
+    location: "Delhi, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "During my internship at IdeaToReality , I worked on the project ”Qalb,” utilizing the MVC structure to ensure that the app’s architecture matched the design requirements provided by the Qalb team. This experience allowed me to enhance my skills in writing clean and optimized code.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Dec 2023 – March 2024",
+  },
+  {
+    title: "Curomates : Software Development Intern",
+    location: "Mumbai , India",
+    description:
+      "Client App Development :Designed and implemented the user authentication system, including the signup and signin features.Developed a comprehensive badges reward system to enhance user engagement , Push notifications , Dynamic add banners.Backend Contributions :Contributed to the development and optimization of backend server code, improving overall application performance and scalability. Worked on various features and bug fixes, ensuring robust and reliable backend operations.Curomates for Professionals :Assisted in the development of the ’Curomates for Professionals’ app, contributing to both frontend and backend components.",
+    icon: React.createElement(FaReact),
+    date: "March 2024 – July 2024",
+  },
+  {
+    title: "Fitslist : App Developer (under agency)",
+    location: "Netherlands (Remote)",
+    description:
+      "Utilized the MVC architecture in React Native to manage business-side logic, including the implementation of a scanner/camera module for QR code scanning to drive workflow processes.Instagram OAuth 2.0,Deep linking redirect back to app.Established a socket connection for support chat, enhancing real-time communication within the app.Contributed to the development of the company’s admin portal using Mantine UI, ensuring design alignment with company standards, configuring the REST API, and working on Next.js.",
+    icon: React.createElement(FaReact),
+    date: "July 2024 – Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Law4Everyone",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "An application that helps individuals solve their legal problems and provides a platform to easily hire lawyers.",
+    tags: ["React-Native", "MERN", "JWT AUTH","Eas","Other native libraries"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Zomato Clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "This is a Zomato clone application built using React Native and Expo.",
+    tags: ["React Native", "Expo", "React Navigation", "react-native-maps", "expo-av"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "DAILY ACTIVITY TRACKER",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Daily Tracker: Keep track of uncompleted tasks for each day. Retrieve a list of all todos or a specific todo by ID. Monthly Profile Graph: Visualize monthly activity with a profile graph.",
+    tags: ["React Native", "Victory Native", "MongoDB"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "C/C++",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "TypeScript",
+  "Golang",
+  "React Native",
+  "Expo",
+  "eas",
+  "React.js",
+  "Git/GitHub",
+  "Node",
+  "Firebase Functions/Firestore",
+  "MongoDB",
+  "CSS",
+  "SQL",
+  "REST API",
+  "GraphQL",
+  "CI/CD (Jenkins)",
+  "UAT Testing",
+  "MVC Architecture",
+  "WebSocket",
+  "DSA (350+ questions)"
 ] as const;
+
