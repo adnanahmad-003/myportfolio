@@ -49,6 +49,16 @@ export default function Experience() {
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
+              {item.link && (
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-2 text-sm font-medium text-blue-600 hover:underline dark:text-blue-400"
+                >
+                  View on Play Store →
+                </a>
+              )}
             </VerticalTimelineElement>
           </React.Fragment>
         ))}

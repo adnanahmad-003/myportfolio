@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      {/* <p className="mb-3">
       I am a passionate Application Developer currently pursuing my studies at {" "}
         <span className="font-medium">IIIT Dharwad</span>, With a strong foundation in {" "}
         <span className="font-medium">React Native and MERN stack technologies</span>.{" "}
@@ -29,6 +29,30 @@ export default function About() {
         <span className="italic">My experience spans from</span>, designing user-friendly interfaces to implementing complex backend solutions.{" "}
         <span className="font-medium">I enjoy solving challenges and continuously expanding my skill set, </span>. whether it's through tackling new programming{" "}
         <span className="font-medium">languages, exploring advanced tools, or diving into real-world projects.</span>.
+      </p> */}
+      <p className="mb-3">
+        With a solid grounding in{" "}
+        <span className="font-medium">Computer Science fundamentals</span>, my
+        primary motivation is building software that genuinely solves real user
+        problems. I have{" "}
+        <span className="font-medium">
+          over 1 year of professional experience
+        </span>{" "}
+        working across mobile and full stack systems, with hands on exposure to
+        production environments.
+      </p>
+
+      <p>
+        I have successfully deployed{" "}
+        <span className="font-medium">5+ applications</span> to the App Store
+        and Play Store, while also contributing to backend driven features,
+        system architecture, and performance optimization. My approach
+        emphasizes{" "}
+        <span className="font-medium">
+          scalability, maintainability, and user centric design
+        </span>
+        , and I enjoy working across different layers of the stack rather than
+        being limited to a single domain.
       </p>
     </motion.section>
   );

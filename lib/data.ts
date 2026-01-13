@@ -34,6 +34,32 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+    {
+    title: "Nourisho App : Core Mobile Application Developer",
+    location: "Bangalore, India",
+    description:
+      "Built the Nourisho mobile app from scratch as part of the core team, delivering a stable and scalable product with 30k+ active users and near-zero crashes over 5 months. Implemented secure authentication and guest user flows with optimized session handling to improve onboarding speed and reliability. Developed a backend-driven, modular Home screen and bottom navigation architecture enabling rapid feature rollouts and reduced future development overhead. Integrated analytics platforms including Google Analytics, Meta, and NetCore with detailed event tracking to drive data-informed product decisions. Engineered a robust order tracking and location setup system using Google Maps, covering edge cases such as permission handling, background/foreground transitions, and map-based address selection for a seamless delivery experience.",
+    icon: React.createElement(FaReact),
+    link: "https://play.google.com/store/apps/details?id=com.nourisho&pcampaignid=web_share",
+    date: "December 2024 – Present",
+  },
+  {
+    title: "Cookr Food App (1 Lakh+ MAU) : Software Engineer Mobile",
+    location: "Bangalore, India",
+    description:
+      "Transformed the legacy Cookr mobile app by upgrading React Native from version 0.71 to 0.77 with the New Architecture, involving extensive native-side refactoring, compatibility fixes, and performance tuning. Achieved a 20% improvement in rendering time and reduced app crashes by 73% as measured through Google Analytics and Firebase Crashlytics. Played a key role in developing the new Storefront section within two months, increasing user engagement and enabling new revenue-focused workflows. Implemented advanced caching mechanisms to reduce load times and enhance perceived responsiveness. Built the complete order flow from cart addition to payment success and failure handling, ensuring a reliable transaction experience.",
+    icon: React.createElement(FaReact),
+    link: "https://play.google.com/store/apps/details?id=com.cookr.customer&pcampaignid=web_share",
+    date: "December 2024 – Present",
+  },
+  {
+    title: "Zero Moblt : Freelancing MVP Developer",
+    location: "Remote",
+    description:
+      "Led the development of Android and iOS applications from scratch as a freelance MVP developer, coordinating a small team to deliver a fully functional product within a tight timeline. Integrated AWS Cognito for secure authentication and implemented real-time trip tracking using Google Maps SDK, enabling parents to monitor their child’s trip live from the application.",
+    icon: React.createElement(FaReact),
+    date: "March 2025 – May 2025",
+  },
   {
     title: "IdeaToReality : App Developer",
     location: "Delhi, India",
@@ -106,6 +132,6 @@ export const skillsData = [
   "UAT Testing",
   "MVC Architecture",
   "WebSocket",
-  "DSA (350+ questions)"
+  "DSA (400+ questions)"
 ] as const;
 
