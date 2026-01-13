@@ -36,7 +36,9 @@ export default function Header() {
                       activeSection === link.name,
                   }
                 )}
-                href={link.hash}
+                // href={link.hash}
+                href={`/${link.hash}`}
+                scroll={false}
                 onClick={() => {
                   setActiveSection(link.name);
                   setTimeOfLastClick(Date.now());
