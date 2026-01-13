@@ -33,8 +33,17 @@ export const links = [
   },
 ] as const;
 
+type ExperienceItem = {
+  title: string;
+  location: string;
+  description: string;
+  icon: JSX.Element;
+  date: string;
+  link?: string;
+};
+
 export const experiencesData = [
-    {
+  {
     title: "Nourisho App : Core Mobile Application Developer",
     location: "Bangalore, India",
     description:
@@ -84,21 +93,27 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "July 2024 – Present",
   },
-] as const;
+] satisfies readonly ExperienceItem[];
 
 export const projectsData = [
   {
     title: "Law4Everyone",
     description:
       "An application that helps individuals solve their legal problems and provides a platform to easily hire lawyers.",
-    tags: ["React-Native", "MERN", "JWT AUTH","Eas","Other native libraries"],
+    tags: ["React-Native", "MERN", "JWT AUTH", "Eas", "Other native libraries"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Zomato Clone",
     description:
       "This is a Zomato clone application built using React Native and Expo.",
-    tags: ["React Native", "Expo", "React Navigation", "react-native-maps", "expo-av"],
+    tags: [
+      "React Native",
+      "Expo",
+      "React Navigation",
+      "react-native-maps",
+      "expo-av",
+    ],
     imageUrl: rmtdevImg,
   },
   {
@@ -132,6 +147,5 @@ export const skillsData = [
   "UAT Testing",
   "MVC Architecture",
   "WebSocket",
-  "DSA (400+ questions)"
+  "DSA (400+ questions)",
 ] as const;
-
